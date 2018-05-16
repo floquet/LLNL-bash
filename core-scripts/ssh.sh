@@ -14,8 +14,12 @@ printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # ssh-keygen -t rsa -C "dantopa@lanl.gov" -b 4096
 
-alias ihpc="echo 'ssh -Y dantopa@ihpc-gate.lanl.gov <crypto card>'; ssh -Y dantopa@ihpc-gate.lanl.gov"
-alias rzgw="echo 'ssh -Y topa1@rzgw.llnl.gov <password><pin>'; ssh -Y topa1@rzgw.llnl.gov"
+# ihpc:    crypto card
+# rzgw:    <password><pin>
+# rzmanta: <password><pin>
+
+alias    ihpc="echo 'ssh -Y dantopa@ihpc-gate.lanl.gov <crypto card>'; ssh -Y dantopa@ihpc-gate.lanl.gov"
+alias    rzgw="echo 'ssh -Y topa1@rzgw.llnl.gov <password><pin>'; ssh -Y topa1@rzgw.llnl.gov"
 alias gomanta="echo 'ssh rzmanta: <password><pin>'; ssh rzmanta"
 alias   goray="echo 'ssh ray: <password><pin>'; ssh ray"
 

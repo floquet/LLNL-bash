@@ -1,15 +1,13 @@
 #! /bin/bash
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-# https://www.howtoforge.com/tutorial/linux-xargs-command/
-# find -name "*.txt" | xargs grep "abc"
-
 # # S C R I P T S
 source "${core}/gcc.sh"
 source "${core}/git.sh"
 source "${core}/ssh.sh"
 source "${core}/vim.sh"
 source "${core}/bash.sh"
+source "${core}/finds.sh"
 source "${core}/cmake.sh"
 
 source "${core}/fortran.sh"

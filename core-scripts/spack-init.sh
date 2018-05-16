@@ -21,9 +21,6 @@ alias   vpa="vi ${dir_yaml}packages.yaml"
 alias  vhcm="vi ~/.spack/compilers.yaml"
 alias vhlcm="vi ~/.spack/linux/compilers.yaml"
 
-## trilinos
-alias finder="echo 'find . -name liblocaepetra.so';  find . -name 'liblocaepetra.so'"
-
 ## openmpi
 alias    sfo="spack find openmpi"
 alias sfoldf="spack find -ldf openmpi"
