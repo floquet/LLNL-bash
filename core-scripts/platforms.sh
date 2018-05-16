@@ -8,7 +8,6 @@ printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 export short_name=`echo ${HOSTNAME} | awk -F'.' '{print $1}'` # trinitite.lanl.gov -> trinitite
 
 # # B O O T  S E C T O R
-export core="${bash_scripts}/core_scripts/"   # script library
 export  ego="${bash_scripts}/platforms/${host_name}/"
 export   id="${ego}${HOSTNAME}/"  # ccscs/ccscs2
 
