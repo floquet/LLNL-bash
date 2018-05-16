@@ -14,7 +14,6 @@ source "${core}/cmake.sh"
 
 source "${core}/fortran.sh"
 source "${core}/bookmarks.sh"
-source "${core}/permissions.sh"
 
 # information routines
 source "${core}/disk.sh"
@@ -25,9 +24,9 @@ source "${core}/environment.sh"
 source "${core}/lstopo.sh"
 
 # # C O P Y
-cp ${HOME}${bash_file} ${id}'/'${bash_file}
-cp ~/.vimrc            ${id}'/'.
-cp ~/.gitconfig        ${id}'/'.
+cp ${HOME}/${bash_file} "${id}/${bash_file}"
+cp ${HOME}/.vimrc        ${id}/.
+cp ${HOME}/.gitconfig    ${id}/.
 
 # http://unix.stackexchange.com/questions/177572/how-to-rename-terminal-tab-title-in-gnome-terminal
 PROMPT_COMMAND='echo -ne "\033]0;${host_name}\007"'

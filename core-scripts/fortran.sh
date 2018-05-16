@@ -20,9 +20,6 @@ export crayflags='-g -fbacktrace'
 
 export nagflags='-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V'
 
-alias gcc7=${spack_bin}'gcc'
-alias gfortran7=${spack_bin}'gfortran'
-
 alias  echogf='echo $gflags'
 alias  echocf='echo $cflags'
 
