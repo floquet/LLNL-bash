@@ -12,6 +12,7 @@ alias scgpa="spack config get packages"
 alias scgre="spack config get repos"
 
 export dir_yaml="${SPACK_ROOT}/etc/spack/defaults/"
+
 alias   vcm="vi ${dir_yaml}compilers.yaml"
 alias   vcn="vi ${dir_yaml}config.yaml"
 alias   vmi="vi ${dir_yaml}mirrors.yaml"
@@ -28,7 +29,8 @@ alias    sfo="spack find openmpi"
 alias sfoldf="spack find -ldf openmpi"
 
 ## modules
-alias ref="echo 'spack module refresh --delete-tree --module-type ${1}'; spack module refresh --delete-tree --module-type ${1}"
+alias reft="echo 'spack module refresh --delete-tree --module-type tcl';  spack module refresh --delete-tree --module-type tcl"
+alias refl="echo 'spack module refresh --delete-tree --module-type lmod'; spack module refresh --delete-tree --module-type lmod"
 alias mu="echo 'module load lmod'; module load lmod; echo 'module use ${SPACK_ROOT}/share/spack/lmod/$(spack arch)/Core'; module use ${SPACK_ROOT}/share/spack/lmod/$(spack arch)/Core"
 alias fix_module_path="ep; echo ''; module unuse ${SPACK_ROOT}/share/spack/modules/$(spack arch); ep; echo ''; module use ${SPACK_ROOT}/share/spack/lmod/$(spack arch)/Core/; ep; echo ''"
 
