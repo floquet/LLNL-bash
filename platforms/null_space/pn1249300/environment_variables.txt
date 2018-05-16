@@ -1,0 +1,81 @@
+environment variables
+Wed May 16 15:18:10 MDT 2018
+
+shell = -bash
+
+TERM_PROGRAM=Apple_Terminal
+gflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+Github=/Users/l127914/Repos/bitbucket/
+my_log=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/pn1249300//environment_variables.txt
+SHELL=/bin/bash
+TERM=xterm-256color
+fortran_compiler_mpi_cray=ftn
+fcoc=gnu
+TMPDIR=/var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/
+fortran_compiler_caf=caf
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ZAVisp0Ic6/Render
+TERM_PROGRAM_VERSION=388.1.2
+gitlab=/Users/l127914/Repos/gitlab/
+TERM_SESSION_ID=1F202147-A88E-4713-BBCD-75236C860190
+os=darwin
+dropbox=/Users/l127914/dropbox/
+Repos=/Users/l127914/Repos/
+nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
+gflags48=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all
+myssh=ssh -l dantopa -XY
+http_proxy=proxyout.lanl.gov:8080
+USER=l127914
+moniker=dantopa
+compare=pn
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.H0toqkrspe/Listeners
+Amarillo=/Volumes/Tlaltecuhtli//amarillo/
+run=mpirun
+__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x0
+host_name=null_space
+ALL_PROXY=proxyout.lanl.gov:8080
+all_proxy=proxyout.lanl.gov:8080
+gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
+PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin:/Library/TeX/texbin
+RSYNC_PROXY=proxyout.lanl.gov:8080
+rsync_proxy=proxyout.lanl.gov:8080
+gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
+Spack_tools=/Users/l127914/Repos/yellow/spack_tools/
+PWD=/Users/l127914
+Master=/Volumes/Tlaltecuhtli//amarillo//master-ompi/
+DBUS_LAUNCHD_SESSION_BUS_SOCKET=/private/tmp/com.apple.launchd.TV9DhAPnyJ/unix_domain_listener
+LANG=en_US.UTF-8
+fortran_compiler_gnu=gfortran
+ego=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/
+mpiprocs=
+XPC_FLAGS=0x0
+Yellow=/Users/l127914/Repos/yellow/
+HTTPS_PROXY=proxyout.lanl.gov:8080
+https_proxy=proxyout.lanl.gov:8080
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/l127914
+id=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/pn1249300/
+ncpus=24
+cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived -fcoarray=lib
+Mathematica=/Users/l127914/dropbox/_mm/
+HTTP_PROXY=proxyout.lanl.gov:8080
+Performance_Benchmarking=/Volumes/Tlaltecuhtli//amarillo//master-ompi/
+me=dantopa@lanl.gov
+LOGNAME=l127914
+core=/Users/l127914/Repos/gitlab/ccs2/core_scripts/
+ccs2=/Users/l127914/Repos/gitlab/ccs2/
+crayflags=-g -fbacktrace
+gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5
+gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto
+dir_name=null_space
+gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
+DISPLAY=/private/tmp/com.apple.launchd.Kty8RHua4W/org.macosforge.xquartz:0
+Bitbucket=/Users/l127914/Repos/bitbucket/
+gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+vol=/Users/l127914/
+short_name=pn1249300
+SECURITYSESSIONID=186a6
+fortran_compiler_mpi_gnu=mpif90
+Scratch=/Volumes/Tlaltecuhtli/
+bash_file=.bashrc
+_=/usr/bin/env

@@ -1,0 +1,62 @@
+environment variables
+Fri Jun 30 17:52:43 MDT 2017
+
+SPACK_ROOT=/Users/l127914/Applications/spack/
+TERM_PROGRAM=Apple_Terminal
+gflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Waliasing -Wconversion-extra -Wextra -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fcheck=bounds -fmax-errors=5
+my_log=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/pn1249300.lanl.gov//environment_variables.txt
+SHELL=/bin/bash
+TERM=xterm-256color
+fortran_compiler_mpi_cray=ftn
+fcoc=gnu
+TMPDIR=/var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/
+fortran_compiler_caf=caf
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ZrKjzxESCj/Render
+TERM_PROGRAM_VERSION=388.1
+OLDPWD=/Users/l127914/Repos/gitlab/ccs2/platforms
+gitlab=/Users/l127914/Repos/gitlab/
+TERM_SESSION_ID=07B99B97-C843-4C5B-8DF0-E55C97FF2C31
+myssh=ssh -l dantopa -X
+http_proxy=proxyout.lanl.gov:8080
+USER=l127914
+moniker=dantopa
+compare=pn
+fortran=fortran/
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.ICLRVE5fIE/Listeners
+run=mpirun
+__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x0
+dan=dantopa@lanl.gov
+bitbucket=/Users/l127914/Repos/bitbucket/
+host_name=null_space
+ALL_PROXY=proxyout.lanl.gov:8080
+all_proxy=proxyout.lanl.gov:8080
+PATH=/Users/l127914/Applications/spack/bin:/Users/l127914/Applications/spack/bin:/Users/l127914/Applications/spack/bin:/Users/l127914/Applications/spack/bin:/Users/l127914/Applications/spack/bin:/Users/l127914/Applications/spack/bin:/Users/l127914/Applications/spack/bin:/Users/l127914/Applications/spack/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin
+RSYNC_PROXY=proxyout.lanl.gov:8080
+rsync_proxy=proxyout.lanl.gov:8080
+PWD=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space
+LANG=en_US.UTF-8
+fortran_compiler_gnu=gfortran
+ego=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space
+mpiprocs=
+XPC_FLAGS=0x0
+PS1=\[\033[00;35m\]\u\[\033[00m\]@\[\033[00;35m\]\H\[\033[00m\]:\[\033[00;33m\]\W\[\033[00m\] $\033[00;36m 
+HTTPS_PROXY=proxyout.lanl.gov:8080
+https_proxy=proxyout.lanl.gov:8080
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/l127914
+id=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/pn1249300.lanl.gov/
+ncpus=24
+cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Waliasing -Wconversion-extra -Wextra -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fcheck=bounds -fmax-errors=5 -fcoarray=lib
+HTTP_PROXY=proxyout.lanl.gov:8080
+me=dantopa@lanl.gov
+LOGNAME=l127914
+core=/Users/l127914/Repos/gitlab/ccs2/core_scripts/
+ccs2=/Users/l127914/Repos/gitlab/ccs2/
+crayflags=-g -fbacktrace
+DISPLAY=/private/tmp/com.apple.launchd.GTjPlvgh2z/org.macosforge.xquartz:0
+vol=/Users/l127914/
+SECURITYSESSIONID=186d1
+fortran_compiler_mpi_gnu=mpif90
+bash_file=.bashrc
+_=/usr/bin/env

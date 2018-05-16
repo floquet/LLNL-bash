@@ -1,0 +1,6 @@
+# # Files and file type for git to ignore
+
+.DS*
+*~
+*.X
+*.pack

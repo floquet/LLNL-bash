@@ -1,0 +1,169 @@
+environment variables
+Mon May  7 14:08:55 MDT 2018
+
+SPACK_ROOT=/Users/l127914/Applications/spack.null.developmental/spack.tutorial
+HOSTNAME=null_space
+TERM_PROGRAM=Apple_Terminal
+gflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+my_log=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/null_space//environment_variables.txt
+SHELL=/bin/bash
+TERM=xterm-256color
+fortran_compiler_mpi_cray=ftn
+fcoc=gnu
+TMPDIR=/var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/
+fortran_compiler_caf=caf
+Production=/Users/l127914/Repos/gitlab/Production
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.F6VzGNjhAs/Render
+TERM_PROGRAM_VERSION=388.1.1
+OLDPWD=/Users/l127914/Repos/yellow/spack-mirror
+dir_yaml=/Users/l127914/Applications/spack.null.developmental/spack.tutorial/etc/spack/defaults/
+gitlab=/Users/l127914/Repos/gitlab/
+TERM_SESSION_ID=A0EC3552-F4FE-4B30-9B4C-7AA5FDB1E630
+spack_bin=opt/spack/darwin-sierra-x86_64/clang-8.1.0-apple/gcc-7.1.0-dt3ert7lzmdegceyq3xiyrzy2a65kcz6/bin/
+os=darwin
+dropbox=/Users/l127914/dropbox/
+SPACK_SHELL=bash
+Repos=/Users/l127914/Repos/
+nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
+CuidadEquipo=/Users/l127914/Repos/gitlab/CuidadEquipo/
+gflags48=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all
+myssh=ssh -l dantopa -X
+mathematica=/Users/l127914/dropbox/_mm/
+http_proxy=http://proxyout.lanl.gov:8080
+USER=l127914
+moniker=dantopa
+spack_mirror_scratch=/scratch/vendors/spack.mirror
+compare=nu
+DEMO_HOME=/Users/l127914/Repos/gitlab/petaca2-TeamCity/
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.GEdoamf7m8/Listeners
+Amarillo=/Volumes/Tlaltecuhtli//amarillo
+run=mpirun
+__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x0
+bitbucket=/Users/l127914/Repos/bitbucket/
+host_name=null_space
+ALL_PROXY=http://proxyout.lanl.gov:8080
+all_proxy=http://proxyout.lanl.gov:8080
+gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
+PATH=/Users/l127914/Applications/spack.null.developmental/spack.tutorial/opt/spack/darwin-sierra-x86_64/clang-9.0.0-apple/environment-modules-3.2.10-ajnoi4kug6fio7np3l56htw6v464towm/Modules/bin:/Users/l127914/Applications/spack.null.developmental/spack.tutorial/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin:/Library/TeX/texbin
+RSYNC_PROXY=http://proxyout.lanl.gov:8080
+rsync_proxy=http://proxyout.lanl.gov:8080
+gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
+num=1
+Spack_tools=/Users/l127914/Repos/yellow/spack_tools/
+PWD=/Users/l127914/Repos/yellow/spack-mirror/pkgconf
+Master=/Volumes/Tlaltecuhtli//amarillo/master-ompi
+DBUS_LAUNCHD_SESSION_BUS_SOCKET=/private/tmp/com.apple.launchd.AJtThCDbi1/unix_domain_listener
+MODULE_PREFIX=/Users/l127914/Applications/spack.null.developmental/spack.tutorial/opt/spack/darwin-sierra-x86_64/clang-9.0.0-apple/environment-modules-3.2.10-ajnoi4kug6fio7np3l56htw6v464towm
+LANG=en_US.UTF-8
+MODULEPATH=/Users/l127914/Applications/spack.null.developmental/spack.tutorial/share/spack/modules/darwin-sierra-x86_64
+fortran_compiler_gnu=gfortran
+ego=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/
+mpiprocs=
+XPC_FLAGS=0x0
+Yellow=/Users/l127914/Repos/yellow/
+PS1=\[\033[00;35m\]\u\[\033[00m\]@\[\033[00;35m\]\H\[\033[00m\]:\[\033[00;33m\]\W\[\033[00m\] $\033[00;36m 
+HTTPS_PROXY=http://proxyout.lanl.gov:8080
+https_proxy=http://proxyout.lanl.gov:8080
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/l127914
+id=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/null_space/
+ncpus=24
+cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived -fcoarray=lib
+TEAMCITY_HOME=/Users/l127914/Applications/TeamCity/
+mirror=/usr/projects/packages/user_contrib/spack.mirror
+HTTP_PROXY=http://proxyout.lanl.gov:8080
+spack_mirror_draco=/usr/projects/draco/vendors/spack.mirror
+me=dantopa@lanl.gov
+Universal=/Users/l127914/Repos/yellow/spack_tools/universal/
+LOGNAME=l127914
+core=/Users/l127914/Repos/gitlab/ccs2/core_scripts/
+ccs2=/Users/l127914/Repos/gitlab/ccs2/
+crayflags=-g -fbacktrace
+gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5
+ROOST_SPACK=/Users/l127914/Applications/spack/
+gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto
+dir_name=null_space
+gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
+DISPLAY=/private/tmp/com.apple.launchd.fRmgd020rI/org.macosforge.xquartz:0
+Bitbucket=/Users/l127914/Repos/bitbucket/
+gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+vol=/Users/l127914/
+short_name=null_space
+Scratch=/Volumes/Tlaltecuhtli/
+DK_NODE=/Users/l127914/Applications/spack.null.developmental/spack.tutorial/share/spack/dotkit/darwin-sierra-x86_64
+fortran_compiler_mpi_gnu=mpif90
+bash_file=.bashrc
+BASH_FUNC_spack%%=() {  if [ -n "${ZSH_VERSION:-}" ]; then
+ emulate -L sh;
+ fi;
+ args=("$@");
+ _sp_flags="";
+ while [[ "$1" =~ ^- ]]; do
+ _sp_flags="$_sp_flags $1";
+ shift;
+ done;
+ if [[ ( ! -z "$_sp_flags" ) && ( "$_sp_flags" =~ '.*h.*' || "$_sp_flags" =~ '.*V.*' ) ]]; then
+ command spack $_sp_flags "$@";
+ return;
+ fi;
+ _sp_subcommand=$1;
+ shift;
+ _sp_spec="$@";
+ case $_sp_subcommand in 
+ "cd")
+ _sp_arg="$1";
+ shift;
+ if [ "$_sp_arg" = "-h" ]; then
+ command spack cd -h;
+ else
+ LOC="$(spack location $_sp_arg "$@")";
+ if [[ -d "$LOC" ]]; then
+ cd "$LOC";
+ else
+ return 1;
+ fi;
+ fi;
+ return
+ ;;
+ "use" | "unuse" | "load" | "unload")
+ _sp_subcommand_args="";
+ _sp_module_args="";
+ while [[ "$1" =~ ^- ]]; do
+ if [ "$1" = "-r" -o "$1" = "--dependencies" ]; then
+ _sp_subcommand_args="$_sp_subcommand_args $1";
+ else
+ _sp_module_args="$_sp_module_args $1";
+ fi;
+ shift;
+ done;
+ _sp_spec="$@";
+ case $_sp_subcommand in 
+ "use")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type dotkit $_sp_spec); then
+ use $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ "unuse")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type dotkit $_sp_spec); then
+ unuse $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ "load")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type tcl $_sp_spec); then
+ module load $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ "unload")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type tcl $_sp_spec); then
+ module unload $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ esac
+ ;;
+ *)
+ command spack "${args[@]}"
+ ;;
+ esac
+}
+_=/usr/bin/env

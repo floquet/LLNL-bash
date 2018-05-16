@@ -1,0 +1,41 @@
+#! /bin/bash
+
+# # I D E N T I F Y
+export bash_file='.mybash'
+export       vol='/home/'${USER}'/'
+export    gitlab=${vol}'Repos/gitlab/'
+export      ccs2=${gitlab}'ccs2/'
+export   scratch='/net/scratch1/dantopa/'
+export   vendors="/usr/projects/draco/vendors/"
+
+alias cv="cd ${vendors}; pwd"
+
+cp ~/.bashrc       ${ccs2}/platforms/${HOSTNAME}/. 
+cp ~/.mybash       ${ccs2}/platforms/${HOSTNAME}/. 
+cp ~/.bash_profile ${ccs2}/platforms/${HOSTNAME}/. 
+
+source ${ccs2}'core_scripts/platforms.sh' # identify platform
+source ${ccs2}'core_scripts/master.sh'
+
+# module exercise
+export to="/usr/projects/draco/vendors/Modules/"
+export from="/usr/projects/draco/vendors/spack.haswell.developmental/spack.haswell.2018-01-08/share/spack/modules/linux-centos7-x86_64/"
+
+alias grab-power="echo 'salloc -N1 -p power8+'; salloc -N1 -p power8+; q"
+alias grab-knl-flat="salloc -N1 -p knl-quad_flat; q"
+alias grab-knl-cache="salloc -N1 -p knl-quad_cache; q"
+alias myalloc="salloc -N 1 -t 168:00:00 -p ${1}"
+
+alias   gh="cd ${vendors}; cd spack.haswell-0.11.1; pwd"
+alias gknl="cd ${vendors}; cd spack.knl-0.11.1; pwd"
+alias   g8="cd ${vendors}; cd spack.power8-0.11.1; pwd"
+alias   g9="cd ${vendors}; cd spack.power9-0.11.1; pwd"
+
+alias howfe="cd /usr/projects/artab/dantopa/github/hpc/fe;     pwd"
+alias  how8="cd /usr/projects/artab/dantopa/github/hpc/power8; pwd"
+alias  how9="cd /usr/projects/artab/dantopa/github/hpc/power9; pwd"
+
+
+# alias draco="cd ${gitlab}; cd Draco; pwd"
+alias draco="cd ${HOME}/draco-branches; pwd"
+

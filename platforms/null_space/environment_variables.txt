@@ -1,0 +1,79 @@
+environment variables
+Sun Aug 13 16:48:36 MDT 2017
+
+SPACK_ROOT=/Users/l127914/Applications/spack/
+HOSTNAME=null_space
+TERM_PROGRAM=Apple_Terminal
+gflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
+my_log=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space///environment_variables.txt
+SHELL=/bin/bash
+TERM=xterm-256color
+fortran_compiler_mpi_cray=ftn
+fcoc=gnu
+TMPDIR=/var/folders/ww/skzg3xhj4y1fhgltv4st2_br0000gq/T/
+fortran_compiler_caf=caf
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.9gkMAp7vop/Render
+TERM_PROGRAM_VERSION=388.1.1
+OLDPWD=/Users/l127914/Repos/gitlab/CuidadEquipo/TeamCity
+gitlab=/Users/l127914/Repos/gitlab/
+TERM_SESSION_ID=2440CA64-7B9F-4BA6-8F9A-0291F6376A53
+spack_bin=/Users/l127914/Applications/spack/opt/spack/darwin-sierra-x86_64/clang-8.1.0-apple/gcc-7.1.0-dt3ert7lzmdegceyq3xiyrzy2a65kcz6/bin/
+os=darwin
+CuidadEquipo=/Users/l127914/Repos/gitlab/CuidadEquipo/
+cuidadequipo=/Users/l127914/Repos/gitlab/CuidadEquipo/
+nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
+gflags48=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all
+myssh=ssh -l dantopa -X
+http_proxy=http://proxyout.lanl.gov:8080
+USER=l127914
+moniker=dantopa
+spack_mirror_scratch=/scratch/vendors/spack.mirror
+compare=nu
+DEMO_HOME=/Users/l127914/Repos/gitlab/petaca2-TeamCity/
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.C2ATerCHwM/Listeners
+run=mpirun
+__CF_USER_TEXT_ENCODING=0x1F7:0x0:0x0
+bitbucket=/Users/l127914/Repos/bitbucket/
+host_name=null_space
+ALL_PROXY=http://proxyout.lanl.gov:8080
+all_proxy=http://proxyout.lanl.gov:8080
+gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
+PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin
+RSYNC_PROXY=http://proxyout.lanl.gov:8080
+rsync_proxy=http://proxyout.lanl.gov:8080
+gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
+PWD=/Users/l127914/Repos/gitlab/CuidadEquipo/TeamCity/bin
+DBUS_LAUNCHD_SESSION_BUS_SOCKET=/private/tmp/com.apple.launchd.lYgMNI8LCi/unix_domain_listener
+LANG=en_US.UTF-8
+fortran_compiler_gnu=gfortran
+ego=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space/
+mpiprocs=
+XPC_FLAGS=0x0
+PS1=\[\033[00;35m\]\u\[\033[00m\]@\[\033[00;35m\]\H\[\033[00m\]:\[\033[00;33m\]\W\[\033[00m\] $\033[00;36m 
+HTTPS_PROXY=http://proxyout.lanl.gov:8080
+https_proxy=http://proxyout.lanl.gov:8080
+XPC_SERVICE_NAME=0
+SHLVL=1
+HOME=/Users/l127914
+id=/Users/l127914/Repos/gitlab/ccs2/platforms/null_space//
+ncpus=24
+cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra -fcoarray=lib
+TEAMCITY_HOME=/Users/l127914/Applications/TeamCity/
+HTTP_PROXY=http://proxyout.lanl.gov:8080
+spack_mirror_draco=/usr/projects/draco/vendors/spack.mirror
+me=dantopa@lanl.gov
+LOGNAME=l127914
+core=/Users/l127914/Repos/gitlab/ccs2/core_scripts/
+ccs2=/Users/l127914/Repos/gitlab/ccs2/
+crayflags=-g -fbacktrace
+gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5
+gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto
+gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
+DISPLAY=/private/tmp/com.apple.launchd.dwB3n67iGa/org.macosforge.xquartz:0
+gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+vol=/Users/l127914/
+short_name=null_space
+SECURITYSESSIONID=186a6
+fortran_compiler_mpi_gnu=mpif90
+bash_file=.bashrc
+_=/usr/bin/env
