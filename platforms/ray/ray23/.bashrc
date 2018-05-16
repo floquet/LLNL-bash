@@ -22,6 +22,7 @@ export bash_scripts="${github}/LLNL-bash"
 export       master="${github}/LLNL-master-open-mpi"
 
 export         core="${bash_scripts}/core-scripts"
+export      mySpack="${HOME}/spack"
 
 # **  **  **  **  **  **  **  **
 

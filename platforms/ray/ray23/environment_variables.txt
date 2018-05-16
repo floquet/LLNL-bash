@@ -1,5 +1,5 @@
 environment variables
-Wed May 16 16:17:41 PDT 2018
+Wed May 16 16:22:22 PDT 2018
 
 shell = -bash
 
@@ -26,7 +26,7 @@ fortran_compiler_caf=caf
 LMOD_PKG=/usr/share/lmod/lmod
 QTDIR=/usr/lib64/qt-3.3
 LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/etc
-OLDPWD=/g/g13/topa1/repos/github/LLNL-bash/platforms/ray/ray23
+OLDPWD=/g/g13/topa1/repos/github/LLNL-bash
 gitlab=/Users/topa1/Repos/gitlab/
 LMOD_VERSION=6.5
 QTINC=/usr/lib64/qt-3.3/include
@@ -65,7 +65,8 @@ LCSCHEDCLUSTER=ray
 gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
 LMOD_SETTARG_CMD=:
 INPUTRC=/etc/inputrc
-PWD=/g/g13/topa1/repos/github/LLNL-bash/core-scripts
+PWD=/g/g13/topa1
+mySpack=/g/g13/topa1/spack
 _LMFILES_=/usr/tcetmp/modulefiles/Core/xl/2018.04.29.lua:/usr/tce/modulefiles/Compiler/xl/2018.04.29/spectrum-mpi/2018.04.27.lua:/usr/tcetmp/modulefiles/Core/cuda/9.2.64.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua
 EDITOR=/bin/vi
 LANG=en_US.UTF-8
