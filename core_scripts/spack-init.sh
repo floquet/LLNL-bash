@@ -1,14 +1,5 @@
 #! /bin/bash
-printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}normal=$(tput sgr0)"
-
-#export spack_head="echo $(uname) | tr '[:upper:]' '[:lower:]'"
-
- # https://stackoverflow.com/questions/2264428/converting-string-to-lower-case-in-bash
-export Mirror1="/usr/projects/draco/vendors/spack.mirror"
-export Mirror2="/scratch/vendors/spack.mirror"
-
-export spack_mirror_scratch='/scratch/vendors/spack.mirror'
-export spack_mirror_draco='/usr/projects/draco/vendors/spack.mirror'
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # #  A L I A S
 alias sp='cd ${SPACK_ROOT}; pwd'

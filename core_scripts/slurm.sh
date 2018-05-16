@@ -1,5 +1,5 @@
 #! /bin/bash
-printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}normal=$(tput sgr0)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # #   A L I A S
 alias grab10='salloc -t 00:10:00 -N 2 --qos=interactive'

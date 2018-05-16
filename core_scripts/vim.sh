@@ -1,10 +1,10 @@
 #! /bin/bash
-printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}normal=$(tput sgr0)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-alias   v='vi '${vol}${bash_file}
-alias  vc='vi '${ccs2}'/core_scripts/master'
-alias  vm='vi makefile'
-alias  vM='vi Makefile'
-alias vcm='vi CMakeLists.txt'
+alias   v="echo 'vi ${HOME}/${bash_file}'; vi ${HOME}/${bash_file}"
+alias  vc="echo 'vi ${core}/master.sh';    vi ${core}/master.sh"
+alias  vm="echo 'vi makefile';             vi makefile"
+alias  vM="echo 'vi Makefile';             vi Makefile"
+alias vcm="echo 'vi CMakeLists.txt';       vi CMakeLists.txt"
 
 alias contents_vim='echo "ALIAS v, vc, vm, vM, vcm"'

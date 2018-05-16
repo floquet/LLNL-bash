@@ -1,5 +1,5 @@
 #! /bin/bash
-printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}normal=$(tput sgr0)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # https://gcc.gnu.org/onlinedocs/gfortran/Option-Summary.html
 # https://gcc.gnu.org/onlinedocs/gfortran/Error-and-Warning-Options.html

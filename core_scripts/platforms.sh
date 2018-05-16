@@ -7,76 +7,16 @@ printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 # export short_name=`echo ${HOSTNAME} | cut -d'.' -f1`
 export short_name=`echo ${HOSTNAME} | awk -F'.' '{print $1}'` # trinitite.lanl.gov -> trinitite
 
-# https://stackoverflow.com/questions/18488270/how-to-check-the-first-character-in-a-string-in-unix
-
-# which platform?
-export compare=${HOSTNAME:0:2}
-
-
-if [[ ${compare} == "da" ]]
-    then
-        export host_name="darwin"
-#        export HOSTNAME=${host_name}
-fi
-
-if [[ ${compare} == "pn" ]]
-    then
-        export host_name="null_space"
-#        export HOSTNAME=${host_name}
-fi
-
-if [[ ${compare} == "tt" ]]
-    then
-        export host_name="trinitite"
-#        export dir_name=${host_name}
-fi
-
-if [[ ${compare} == "ml" ]]
-    then export host_name="moonlight"
-fi
-
-if [[ ${compare} == "pi" ]]
-    then export host_name="pinto"
-fi
-
-if [[ ${compare} == "sn" ]]
-    then export host_name="snow"
-fi
-
-if [[ ${compare} == "wf" ]]
-    then export host_name="wolf"
-fi
-
-export dir_name=${host_name}
-
-if [[ ${compare} == "cc" ]]
-    then
-        export machine_number=${HOSTNAME:5:1}
-
-        export short_name=${short_name::-1}                  # ccscs
-        export  host_name=${short_name}" "${machine_number}  # ccscs -> ccscs 7 (terminal window)
-        export   dir_name=${short_name}${machine_number}     # ccscs7
-    fi
-
-if [[ ${compare} == "pe" ]]
-    then
-        export machine_number=${HOSTNAME:6:1}
-
-        export short_name=${short_name::-1}                  # petaca
-        export  host_name=${short_name}" "${machine_number}  # petaca -> petaca 2 (terminal window)
-        export   dir_name=${short_name}${machine_number}     # petaca2
-fi
-
 # # B O O T  S E C T O R
-export core="${ccs2}core_scripts/"   # script library
-export  ego="${ccs2}platforms/${dir_name}/"
-export   id="${ego}${short_name}/"  # ccscs/ccscs2
+export core="${bash_scripts}/core_scripts/"   # script library
+export  ego="${bash_scripts}/platforms/${host_name}/"
+export   id="${ego}${HOSTNAME}/"  # ccscs/ccscs2
 
 mkdir -p ${id}
 
 # # Kerberos
 export moniker="dantopa"
-export me=${moniker}"@lanl.gov"   # for scp and such
+export me="${moniker}@lanl.gov"   # for scp and such
 
 alias k="kinit -f ${me}"  # forward ticket
 

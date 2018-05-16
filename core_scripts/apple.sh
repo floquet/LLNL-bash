@@ -1,23 +1,21 @@
 #! /bin/bash
-printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}normal=$(tput sgr0)"
+printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 alias another_mathematica='open -n /Volumes/Macintosh HD/Application/Mathematica.app'  # launch second kernel
 
-export my_log=${id}"/apple_profiler.txt"
+export my_log="${id}/apple_profiler.txt"
 
-echo "mac profile" > ${my_log}
-date >> ${my_log}
-
-echo "" >> ${my_log}
+echo "mac profile"                        >  ${my_log}
+date                                      >> ${my_log}
+echo ""                                   >> ${my_log}
 echo "system_profiler SPSoftwareDataType" >> ${my_log}
-system_profiler SPSoftwareDataType >> $my_log
+system_profiler SPSoftwareDataType        >> $my_log
+echo ""                                   >> ${my_log}
+echo "sysctl -a"                          >> ${my_log}
+sysctl -a                                 >> ${my_log}
 
-echo "" >> ${my_log}
-echo "sysctl -a" >> ${my_log}
-sysctl -a  >> ${my_log}
-
-#WARNING: The locate database (/var/db/locate.database) does not exist.
-#To create the database, run the following command:
+# WARNING: The locate database (/var/db/locate.database) does not exist.
+# To create the database, run the following command:
 
 #  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
