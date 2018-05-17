@@ -12,17 +12,19 @@
 printf '%s\n' "$(date)  %%  %%  %%  ${HOME}/$(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # # I D E N T I F Y
-export    bash_file=".bashrc"
-export    host_name="ray"
-export      scratch="/Volumes/Tlaltecuhtli/"
+export bash_file=".bashrc"
+export host_name="ray"
+export   scratch="/Volumes/Tlaltecuhtli/"
 
 export        repos="${HOME}/repos"
 export       github="${repos}/github"
 export bash_scripts="${github}/LLNL-bash"
 export       master="${github}/LLNL-master-open-mpi"
 
-export         core="${bash_scripts}/core-scripts"
-export      mySpack="${HOME}/spack"
+export    core="${bash_scripts}/core-scripts"
+export mySpack="${HOME}/spack"
+
+export gcc_system_compiler="gcc@4.8.5"
 
 # **  **  **  **  **  **  **  **
 
