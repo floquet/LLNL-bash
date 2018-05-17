@@ -1,4 +1,0 @@
-uname variables
-Mon Apr 16 15:52:52 MDT 2018
-
-Linux cn2000 4.11.0-44.4.1.el7a.ppc64le #1 SMP Sat Dec 9 02:17:51 EST 2017 ppc64le ppc64le ppc64le GNU/Linux

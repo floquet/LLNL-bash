@@ -11,6 +11,10 @@ alias scgmo="spack config get modules"
 alias scgpa="spack config get packages"
 alias scgre="spack config get repos"
 
+# # quick edits
+alias  vhcm="vi ${HOME}/.spack/compilers.yaml"
+alias vhlcm="vi ${HOME}/.spack/linux/compilers.yaml"
+
 export dir_yaml="${SPACK_ROOT}/etc/spack/defaults"
 
 alias   vcm="vi ${dir_yaml}/compilers.yaml"
@@ -18,8 +22,6 @@ alias   vcn="vi ${dir_yaml}/config.yaml"
 alias   vmi="vi ${dir_yaml}/mirrors.yaml"
 alias   vmo="vi ${dir_yaml}/modules.yaml"
 alias   vpa="vi ${dir_yaml}/packages.yaml"
-alias  vhcm="vi ${HOME}/.spack/compilers.yaml"
-alias vhlcm="vi ${HOME}/.spack/linux/compilers.yaml"
 
 ## openmpi
 alias    sfo="spack find openmpi"
