@@ -1,5 +1,5 @@
 modules available 
-Wed May 16 17:26:37 PDT 2018
+Thu May 17 12:18:06 PDT 2018
 
 
 ----------------- /usr/tce/modulefiles/Compiler/xl/2018.04.29 ------------------
