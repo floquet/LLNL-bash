@@ -3,6 +3,8 @@ printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # #   E X P O R T
 export os="$(tr [A-Z] [a-z] <<< "$(uname)")" # operating system, lower case
+# http://unix.stackexchange.com/questions/177572/how-to-rename-terminal-tab-title-in-gnome-terminal
+PROMPT_COMMAND='echo -ne "\033]0;${host_name}\007"'
 
 # #   A L I A S
 alias      lss="ls -alh"

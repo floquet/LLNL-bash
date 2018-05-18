@@ -22,10 +22,8 @@ source "${core}/environment.sh"
 source "${core}/lstopo.sh"
 
 # # C O P Y
-cp ${HOME}/${bash_file} "${id}/${bash_file}"
-cp ${HOME}/.vimrc        ${id}/.
-cp ${HOME}/.gitconfig    ${id}/.
+cp ${HOME}/${bash_file} ${vault}${bash_file}
+cp ${HOME}/.vimrc       ${vault}
+cp ${HOME}/.gitconfig   ${vault}
 
-# http://unix.stackexchange.com/questions/177572/how-to-rename-terminal-tab-title-in-gnome-terminal
-PROMPT_COMMAND='echo -ne "\033]0;${host_name}\007"'
 myprompt  # # Linux prompt
