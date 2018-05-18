@@ -1,6 +1,4 @@
 #! /bin/bash
-bold=$(tput bold)
-normal=$(tput sgr0)
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # create an ssh key

@@ -6,7 +6,10 @@ printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 # export short_name=`echo ${HOSTNAME} | sed 's/[.].*//'`
 # export short_name=`echo ${HOSTNAME} | cut -d'.' -f1`
 export short_name=`echo ${HOSTNAME} | awk -F'.' '{print $1}'` # trinitite.lanl.gov -> trinitite
-export  partition=`env | grep SLURM_JOB_PARTITION | awk -F'=' '{print $2}'`
+if [ -z "$partition" ]  # empty
+then
+  export  partition=`env | grep SLURM_JOB_PARTITION | awk -F'=' '{print $2}'`
+fi
 
 # # B O O T  S E C T O R
 export   ego="${bash_scripts}/platforms/${host_name}/"

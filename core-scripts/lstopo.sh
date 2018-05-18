@@ -6,6 +6,6 @@ if type "lstopo" > /dev/null; then
     # save time - do not regenrate
     if ! [ -e ${id}${host_name}'_topology.pdf' ]
         then
-            lstopo ${id}${host_name}'_topology.pdf'
+            lstopo > ${id}${host_name}'_topology.pdf'
     fi
 fi

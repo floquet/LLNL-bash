@@ -1,0 +1,61 @@
+environment variables
+Fri May 18 15:01:38 MDT 2018
+
+shell = -bash
+
+master=/Users/dantopa/Documents/GitHub/LLNL-master-open-mpi
+partition=Intel-Core-i7
+HOSTNAME=MacBookPro11,3
+TERM_PROGRAM=Apple_Terminal
+gflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+my_log=/Users/dantopa/Documents/GitHub/LLNL-bash/platforms/Lax-Millgram/Intel-Core-i7-MacBookPro11,3//environment_variables.txt
+TERM=xterm-256color
+SHELL=/bin/bash
+fortran_compiler_mpi_cray=ftn
+TMPDIR=/var/folders/k6/5wm3hql10qv_g1ymbplcd0zr0000gr/T/
+fortran_compiler_caf=caf
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.gS2ktiuOjl/Render
+TERM_PROGRAM_VERSION=400
+vault=/Users/dantopa/Documents/GitHub/LLNL-bash/platforms/Lax-Millgram/scripts/
+TERM_SESSION_ID=F6194EA8-0E40-4DA5-A918-CE720D1960B1
+os=darwin
+nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
+gflags48=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all
+myssh=ssh -l dantopa -XY
+USER=dantopa
+moniker=dantopa
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.r5j9hFFzLW/Listeners
+bitbucket=/Users/dantopa/Documents/bitbucket
+host_name=Lax-Millgram
+gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+scratch=/Volumes/Tlaltecuhtli/
+gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
+PWD=/Users/dantopa/Applications/spack.macbook
+mySpack=/Users/dantopa/Applications/spack.macbook
+LANG=en_US.UTF-8
+github=/Users/dantopa/Documents/GitHub
+fortran_compiler_gnu=gfortran
+ego=/Users/dantopa/Documents/GitHub/LLNL-bash/platforms/Lax-Millgram/
+bash_scripts=/Users/dantopa/Documents/GitHub/LLNL-bash
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+HOME=/Users/dantopa
+SHLVL=1
+id=/Users/dantopa/Documents/GitHub/LLNL-bash/platforms/Lax-Millgram/Intel-Core-i7-MacBookPro11,3/
+repos=/Users/dantopa/Documents
+cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived -fcoarray=lib
+me=dantopa@lanl.gov
+LOGNAME=dantopa
+core=/Users/dantopa/Documents/GitHub/LLNL-bash/core-scripts
+crayflags=-g -fbacktrace
+gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5
+gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto
+gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
+DISPLAY=/private/tmp/com.apple.launchd.bl1HzubPuE/org.macosforge.xquartz:0
+gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+short_name=MacBookPro11,3
+SECURITYSESSIONID=186a7
+fortran_compiler_mpi_gnu=mpif90
+bash_file=.profile
+_=/usr/bin/env

@@ -19,4 +19,7 @@ date                   >> ${my_log}
 echo ""                >> ${my_log}
 uname -a               >> ${my_log}
 
+export bold=$(tput bold)
+export normal=$(tput sgr0)
+
 alias contents_environment='echo "write list of environment commands to environment_variables.txt, list of uname variables to uname_variables.txt"'
