@@ -13,6 +13,3 @@ alias        gorepos="cd ${repos};        pwd"  # variable set in ${bash_file}
 alias      goscratch="cd ${scratch};      pwd"  # variable set in ${bash_file}
 alias        gospack="cd ${mySpack};      pwd"  # variable set in ${bash_file}
 alias        govault="cd ${vault};        pwd"  # variable created in ${core}/platforms.sh
-
-# # errand scripts
-alias gospackp="cd ${mySpack}; . share/spack/setup-env.sh; l-spack" # variable set in ${bash_file}

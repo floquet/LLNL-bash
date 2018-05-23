@@ -1,6 +1,9 @@
 #! /bin/bash
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
+# # errands
+alias gospackp=". share/spack/setup-env.sh; l-spack" # variable set in ${bash_file}
+
 # #  A L I A S
 alias sp="cd ${SPACK_ROOT}; pwd"
 alias esp="echo '\${SPACK_ROOT}:'; echo '${SPACK_ROOT}'"
