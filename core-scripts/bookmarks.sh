@@ -1,12 +1,18 @@
 #! /bin/bash
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-export my_log="${id}/alias_assignments.txt"
+# # directory change
+alias         gobash="cd ${bash_scripts}; pwd"  # variable set in ${bash_file}
+alias         gocore="cd ${core};         pwd"  # variable created in ${bash_file}
+alias          goego="cd ${ego};          pwd"  # variable created in ${core}/platforms.sh
+alias         gohome="cd ${HOME};         pwd"
+alias           goid="cd ${id};           pwd"  # variable created in ${core}/platforms.sh
+alias       gomaster="cd ${master};       pwd"  # variable set in ${bash_file}
+alias gonode_queries="cd ${node_queries}; pwd"  # variable set in ${bash_file}
+alias        gorepos="cd ${repos};        pwd"  # variable set in ${bash_file}
+alias      goscratch="cd ${scratch};      pwd"  # variable set in ${bash_file}
+alias        gospack="cd ${mySpack};      pwd"  # variable set in ${bash_file}
+alias        govault="cd ${vault};        pwd"  # variable created in ${core}/platforms.sh
 
-echo "alias assignments on ${host_name}" >  ${my_log}
-date                                     >> ${my_log}
-
-echo ""                                  >> ${my_log}
-alias                                    >> ${my_log}
-
-alias contents_alias='echo "write list of alias commands to \${my_log} = ${my_log}"'
+# # errand scripts
+alias gospackp="cd ${mySpack}; . share/spack/setup-env.sh; l-spack" # variable set in ${bash_file}
