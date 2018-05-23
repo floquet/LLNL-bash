@@ -15,4 +15,3 @@ alias  cpu_out="grep -i 'model name' /proc/cpuinfo | sort | uniq"
 # # path queries
 alias  ep="echo '\${PATH}:';       echo '${PATH}'"
 alias emp="echo '\${MODULEPATH}:'; echo '${MODULEPATH}'"
-alias esp="echo '\${SPACK_ROOT}:'; echo '${SPACK_ROOT}'"

@@ -1,0 +1,7 @@
+module list
+Thu May 17 11:49:12 PDT 2018
+
+
+Currently Loaded Modules:
+  1) xl/2018.04.29   2) spectrum-mpi/2018.04.27   3) cuda/9.2.64   4) StdEnv
+

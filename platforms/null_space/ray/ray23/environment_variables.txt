@@ -1,0 +1,217 @@
+environment variables
+Thu May 17 11:49:12 PDT 2018
+
+shell = -bash
+
+MANPATH=/usr/tce/packages/cuda/cuda-9.2.64/doc/man:/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-2018.04.27/share/man:/usr/tce/packages/xl/xl-2018.04.29/xlf/16.1.0/man/en_US:/usr/tce/packages/xl/xl-2018.04.29/xlC/16.1.0/man/en_US:/usr/tcetmp/man:/usr/share/lmod/lmod/share/man:/opt/ibm/spectrumcomputing/lsf/10.1/man:/usr/man:/usr/share/man:/usr/local/man:/usr/X11R6/man:/usr/lib64/mvapich/default/man:/opt/ibm/spectrum_mpi/jsm_pmix/share/man
+master=/g/g13/topa1/repos/github/LLNL-master-open-mpi
+SSH_AGENT_PID=13920
+LMOD_FAMILY_CUDA=cuda
+_ModuleTable003_=YXVsdCJdPTEsWyJmdWxsTmFtZSJdPSJzcGVjdHJ1bS1tcGkvMjAxOC4wNC4yNyIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic2hvcnQiXT0ic3BlY3RydW0tbXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0seGw9e1siRk4iXT0iL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZS94bC8yMDE4LjA0LjI5Lmx1YSIsWyJkZWZhdWx0Il09MSxbImZ1bGxOYW1lIl09InhsLzIwMTguMDQuMjkiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09InhsIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxtcGF0aEE9eyIvdXNyL3RjZS9tb2R1bGVmaWxlcy9NUEkveGwvMjAxOC4wNC4yOS9zcGVjdHJ1bS1tcGkvMjAxOC4wNC4yNyIsIi91c3IvdGNlL21vZHVsZWZpbGVzL0Nv
+SPACK_ROOT=/g/g13/topa1/spack/spack.ray.current
+LMOD_ANCIENT_TIME=3600
+HOSTNAME=ray23
+gflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+my_log=/g/g13/topa1/repos/github/LLNL-bash/platforms/ray/ray23//environment_variables.txt
+TERM=xterm-256color
+SHELL=/bin/bash
+fortran_compiler_mpi_cray=ftn
+fcoc=gnu
+HISTSIZE=50
+LMOD_DEFAULT_MODULEPATH=/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
+MODULEPATH_ROOT=/usr/share/modulefiles
+TMPDIR=/var/tmp
+SSH_CLIENT=134.9.48.238 56202 622
+fortran_compiler_caf=caf
+LMOD_PKG=/usr/share/lmod/lmod
+QTDIR=/usr/lib64/qt-3.3
+LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/etc
+OLDPWD=/g/g13/topa1/repos/github/LLNL-bash
+dir_yaml=/g/g13/topa1/spack/spack.ray.current/etc/spack/defaults
+gitlab=/Users/topa1/Repos/gitlab/
+LMOD_VERSION=6.5
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_SHORT_TIME=60
+os=linux
+dropbox=/Users/topa1/dropbox/
+SSH_TTY=/dev/pts/50
+SPACK_SHELL=bash
+nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
+LC_ALL=C
+gflags48=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all
+myssh=ssh -l dantopa -XY
+QT_GRAPHICSSYSTEM_CHECKED=1
+LSF_LIBDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/lib
+OPAL_PREFIX=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-2018.04.27
+CUDA_HOME=/usr/tce/packages/cuda/cuda-9.2.64
+USER=topa1
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/usr/tce/packages/cuda/cuda-9.2.64/lib64:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/lib
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+moniker=dantopa
+gcc_system_compiler=gcc@4.8.5
+compare=ra
+PFTP_CONFIG_FILENAME=/etc/pftp_config
+ENV=/g/g13/topa1/.bashrc
+_ModuleTable004_=bXBpbGVyL3hsLzIwMTguMDQuMjkiLCIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9hcHBzL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZTovdXNyL2FwcHMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9
+SSH_AUTH_SOCK=/var/tmp/ssh-CqYqij9Ro2Ug/agent.13919
+HOST_GRP=linux
+run=mpirun
+LMOD_PREPEND_BLOCK=normal
+host_name=ray
+gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPTMwMCxbImNfc2hvcnRUaW1lIl09MC4yNjIzMzk4MzAzOTg1NixmYW1pbHk9e1siY29tcGlsZXIiXT0ieGwiLFsiY3VkYSJdPSJjdWRhIixbIm1waSJdPSJzcGVjdHJ1bS1tcGkiLH0saW5hY3RpdmU9e30sbVQ9e1N0ZEVudj17WyJGTiJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3Jl
+MAIL=/usr/spool/mail/topa1
+PATH=/usr/tce/packages/cuda/cuda-9.2.64/bin:/usr/tce/packages/spectrum-mpi/spectrum-mpi-2018.04.27-xl-2018.04.29/bin:/usr/tce/packages/xl/xl-2018.04.29/bin:/usr/tcetmp/bin:/g/g13/topa1/spack/spack.ray.current/bin:/usr/lib64/qt-3.3/bin:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/etc:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibm/spectrum_mpi/jsm_pmix/bin:/opt/ibm/flightlog/bin:/opt/ibutils/bin:.
+scratch=/Volumes/Tlaltecuhtli/
+LCSCHEDCLUSTER=ray
+gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
+LMOD_SETTARG_CMD=:
+INPUTRC=/etc/inputrc
+PWD=/g/g13/topa1/repos/github/LLNL-master-open-mpi
+_LMFILES_=/usr/tcetmp/modulefiles/Core/xl/2018.04.29.lua:/usr/tce/modulefiles/Compiler/xl/2018.04.29/spectrum-mpi/2018.04.27.lua:/usr/tcetmp/modulefiles/Core/cuda/9.2.64.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua
+mySpack=/g/g13/topa1/spack
+EDITOR=/bin/vi
+LANG=en_US.UTF-8
+github=/g/g13/topa1/repos/github
+MODULEPATH=/usr/tce/modulefiles/MPI/xl/2018.04.29/spectrum-mpi/2018.04.27:/usr/tce/modulefiles/Compiler/xl/2018.04.29:/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+LOADEDMODULES=xl/2018.04.29:spectrum-mpi/2018.04.27:cuda/9.2.64:StdEnv
+what=llvm
+GLOGIN=1
+_ModuleTable_Sz_=4
+fortran_compiler_gnu=gfortran
+ego=/g/g13/topa1/repos/github/LLNL-bash/platforms/ray/
+bash_scripts=/g/g13/topa1/repos/github/LLNL-bash
+PS1=\[\033[00;35m\]\u\[\033[00m\]@\[\033[00;35m\]\H\[\033[00m\]:\[\033[00;33m\]\W\[\033[00m\] $\033[00;36m 
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+LSF_BINDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/bin
+ENVIRONMENT=INTERACTIVE
+HISTCONTROL=ignoredups
+KRB5CCNAME=FILE:/tmp/krb5cc_27996_QlBxpRg4zH
+SHLVL=1
+HOME=/g/g13/topa1
+TACC_FAMILY_COMPILER=xl
+id=/g/g13/topa1/repos/github/LLNL-bash/platforms/ray/ray23/
+repos=/g/g13/topa1/repos
+ncpus=24
+SECONDS=0
+cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived -fcoarray=lib
+Mathematica=/Users/topa1/dropbox/_mm/
+_ModuleTable002_=L1N0ZEVudi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJTdGRFbnYiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInNob3J0Il09IlN0ZEVudiIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGN1ZGE9e1siRk4iXT0iL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZS9jdWRhLzkuMi42NC5sdWEiLFsiZGVmYXVsdCJdPTEsWyJmdWxsTmFtZSJdPSJjdWRhLzkuMi42NCIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic2hvcnQiXT0iY3VkYSIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LFsic3BlY3RydW0tbXBpIl09e1siRk4iXT0iL3Vzci90Y2UvbW9kdWxlZmlsZXMvQ29tcGlsZXIveGwvMjAxOC4wNC4yOS9zcGVjdHJ1bS1tcGkvMjAxOC4wNC4yNy5sdWEiLFsiZGVm
+BINARY_TYPE_HPC=
+me=dantopa@lanl.gov
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+TACC_FAMILY_MPI=spectrum-mpi
+MPI_ROOT=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-2018.04.27
+LMOD_arch=ppc64le
+LOGNAME=topa1
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+core=/g/g13/topa1/repos/github/LLNL-bash/core-scripts
+ccs2=/Users/topa1/Repos/gitlab/ccs2/
+XLSF_UIDDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/lib/uid
+SSH_CONNECTION=134.9.48.238 56202 134.9.54.73 622
+crayflags=-g -fbacktrace
+MODULESHOME=/usr/share/lmod/lmod
+SYS_TYPE=blueos_3_ppc64le_ib
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5
+LMOD_FAMILY_COMPILER=xl
+where=/g/g13/topa1/repos/github/LLNL-master-open-mpi/init/bash/builders/list-versions-llvm.sh
+gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto
+dir_name=ray
+LMOD_FULL_SETTARG_SUPPORT=no
+gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
+DISPLAY=192.168.64.23:36.0
+gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
+vol=/Users/topa1/
+TACC_FAMILY_CUDA=cuda
+short_name=ray23
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+LSF_ENVDIR=/opt/ibm/spectrumcomputing/lsf/conf
+LMOD_FAMILY_MPI=spectrum-mpi
+fortran_compiler_mpi_gnu=mpif90
+Scratch=/Volumes/Tlaltecuhtli/
+LMOD_COLORIZE=yes
+HISTFILE=/g/g13/topa1/.bash_history
+versions=6.0.0 5.0.1  5.0.0 4.0.1  4.0.0 3.9.1  3.9.0  3.8.1  3.8.0  3.7.1  3.7.0  3.6.2  3.5.1  3.0
+bash_file=.bashrc
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");
+ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_spack()=() {  if [ -n "${ZSH_VERSION:-}" ]; then
+ emulate -L sh;
+ fi;
+ args=("$@");
+ _sp_flags="";
+ while [[ "$1" =~ ^- ]]; do
+ _sp_flags="$_sp_flags $1";
+ shift;
+ done;
+ if [[ ( ! -z "$_sp_flags" ) && ( "$_sp_flags" =~ '.*h.*' || "$_sp_flags" =~ '.*V.*' ) ]]; then
+ command spack $_sp_flags "$@";
+ return;
+ fi;
+ _sp_subcommand=$1;
+ shift;
+ _sp_spec=("$@");
+ case $_sp_subcommand in 
+ "cd")
+ _sp_arg="$1";
+ shift;
+ if [ "$_sp_arg" = "-h" ]; then
+ command spack cd -h;
+ else
+ LOC="$(spack location $_sp_arg "$@")";
+ if [[ -d "$LOC" ]]; then
+ cd "$LOC";
+ else
+ return 1;
+ fi;
+ fi;
+ return
+ ;;
+ "use" | "unuse" | "load" | "unload")
+ _sp_subcommand_args="";
+ _sp_module_args="";
+ while [[ "$1" =~ ^- ]]; do
+ if [ "$1" = "-r" -o "$1" = "--dependencies" ]; then
+ _sp_subcommand_args="$_sp_subcommand_args $1";
+ else
+ _sp_module_args="$_sp_module_args $1";
+ fi;
+ shift;
+ done;
+ _sp_spec=("$@");
+ case $_sp_subcommand in 
+ "use")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type dotkit "${_sp_spec[@]}"); then
+ use $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ "unuse")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type dotkit "${_sp_spec[@]}"); then
+ unuse $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ "load")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type tcl "${_sp_spec[@]}"); then
+ module load $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ "unload")
+ if _sp_full_spec=$(command spack $_sp_flags module loads --input-only $_sp_subcommand_args --module-type tcl "${_sp_spec[@]}"); then
+ module unload $_sp_module_args $_sp_full_spec;
+ fi
+ ;;
+ esac
+ ;;
+ *)
+ command spack "${args[@]}"
+ ;;
+ esac
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/usr/bin/env

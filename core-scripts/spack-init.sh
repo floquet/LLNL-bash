@@ -3,6 +3,7 @@ printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # #  A L I A S
 alias sp="cd ${SPACK_ROOT}; pwd"
+alias esp="echo '\${SPACK_ROOT}:'; echo '${SPACK_ROOT}'"
 
 alias scgcm="spack config get compilers"
 alias scgcn="spack config get config"

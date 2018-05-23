@@ -2,21 +2,19 @@
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # https://stackoverflow.com/questions/16040567/use-awk-to-extract-substring
-# export short_name=`echo ${HOSTNAME} | grep -o '^[^.]*'`
-# export short_name=`echo ${HOSTNAME} | sed 's/[.].*//'`
-# export short_name=`echo ${HOSTNAME} | cut -d'.' -f1`
 export short_name=`echo ${HOSTNAME} | awk -F'.' '{print $1}'` # trinitite.lanl.gov -> trinitite
-if [ -z "$partition" ]  # empty
-then
-  export  partition=`env | grep SLURM_JOB_PARTITION | awk -F'=' '{print $2}'`
+
+export partition=`env | grep SLURM_JOB_PARTITION | awk -F'=' '{print $2}'`
+if [ -z "$partition" ]
+    then
+        export partition="log-in"
 fi
 
 # # B O O T  S E C T O R
-export   ego="${bash_scripts}/platforms/${host_name}/"
-export    id="${ego}${partition}-${HOSTNAME}/"  # ccscs/ccscs2
-export vault="${ego}scripts/"
+export   ego="${node_queries}/${host_name}"
+export    id="${ego}/${partition}-${short_name}"  # ccscs/ccscs2
+export vault="${id}/configure"
 
-mkdir -p ${id}
 mkdir -p ${vault}
 
 # # Kerberos
@@ -26,7 +24,7 @@ export me="${moniker}@lanl.gov"   # for scp and such
 alias k="kinit -f ${me}"  # forward ticket
 
 # # S S H
-export myssh="ssh -l ${moniker} -XY"   # forward X11
+export myssh="ssh -l -XY ${moniker} "   # forward X11
 
 # # Yellow network
 alias  trinititey="${myssh} tt-fey.lanl.gov"

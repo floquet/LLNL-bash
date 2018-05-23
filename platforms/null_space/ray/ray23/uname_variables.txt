@@ -1,0 +1,4 @@
+uname variables
+Thu May 17 11:49:12 PDT 2018
+
+Linux ray23 3.10.0-514.26.2.2chaos.ch6_1.ppc64le #1 SMP Tue Oct 3 16:16:08 PDT 2017 ppc64le ppc64le ppc64le GNU/Linux
