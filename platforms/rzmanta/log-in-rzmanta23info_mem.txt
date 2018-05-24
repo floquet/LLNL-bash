@@ -1,0 +1,44 @@
+cat /proc/mem info for rzmanta
+Wed May 23 09:29:01 PDT 2018
+
+MemTotal:       263654912 kB
+MemFree:        195773504 kB
+MemAvailable:   235483520 kB
+Buffers:            3072 kB
+Cached:         39981248 kB
+SwapCached:            0 kB
+Active:         17812032 kB
+Inactive:       24575360 kB
+Active(anon):    2409216 kB
+Inactive(anon):    37632 kB
+Active(file):   15402816 kB
+Inactive(file): 24537728 kB
+Unevictable:    16777216 kB
+Mlocked:        16777216 kB
+SwapTotal:       4194240 kB
+SwapFree:        4194240 kB
+Dirty:               256 kB
+Writeback:             0 kB
+AnonPages:      19173632 kB
+Mapped:          1740800 kB
+Shmem:             43648 kB
+Slab:            4113600 kB
+SReclaimable:    1210880 kB
+SUnreclaim:      2902720 kB
+KernelStack:       47408 kB
+PageTables:        22080 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    136021696 kB
+Committed_AS:   22868416 kB
+VmallocTotal:   8589934592 kB
+VmallocUsed:     1985600 kB
+VmallocChunk:   8587800384 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:      16384 kB

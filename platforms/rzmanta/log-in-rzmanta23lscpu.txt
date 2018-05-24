@@ -1,0 +1,19 @@
+lscpu for rzmanta
+Wed May 23 09:29:01 PDT 2018
+
+Architecture:          ppc64le
+Byte Order:            Little Endian
+CPU(s):                160
+On-line CPU(s) list:   0-159
+Thread(s) per core:    8
+Core(s) per socket:    10
+Socket(s):             2
+NUMA node(s):          2
+Model:                 2.0 (pvr 004d 0200)
+Model name:            POWER8 (raw), altivec supported
+L1d cache:             64K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-79
+NUMA node8 CPU(s):     80-159

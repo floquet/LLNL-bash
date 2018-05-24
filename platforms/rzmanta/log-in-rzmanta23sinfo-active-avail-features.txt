@@ -1,0 +1,5 @@
+active, available features for rzmanta
+Wed May 23 09:29:01 PDT 2018
+
+sinfo -o "%30N %75b %75f"
+

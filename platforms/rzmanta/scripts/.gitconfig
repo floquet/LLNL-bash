@@ -1,0 +1,9 @@
+[user]
+	name = Daniel Topa
+	email = dantopa@lanl.gov
+[push]
+	default = simple
+[color]
+	ui = true
+[rerere]
+	enabled = true

@@ -1,0 +1,70 @@
+modules available 
+Wed May 23 09:29:01 PDT 2018
+
+
+----------------- /usr/tce/modulefiles/Compiler/xl/2018.04.29 ------------------
+   spectrum-mpi/2017.04.03    spectrum-mpi/2018.02.05
+   spectrum-mpi/2017.08.24    spectrum-mpi/2018.04.27 (L,D)
+   spectrum-mpi/2017.11.10
+
+------------------------- /usr/tcetmp/modulefiles/Core -------------------------
+   StdEnv                 (L)      ibmppt/beta-2.4.0
+   clang/coral-2017.03.15          ibmppt/beta2-2.4.0
+   clang/coral-2017.03.29          ibmppt/2.3           (D)
+   clang/coral-2017.05.03          ibmppt/2.4.0
+   clang/coral-2017.05.19          ibmppt/2.4.0.1
+   clang/coral-2017.06.08          jsrun/2017.09.21
+   clang/coral-2017.06.12          lmod/7.4.17          (D)
+   clang/coral-2017.06.14          makedepend/1.0.5
+   clang/coral-2017.06.27          mpifileutils/0.6
+   clang/coral-2017.06.29          mpifileutils/0.7     (D)
+   clang/coral-2017.08.31          petsc/3.8.3
+   clang/coral-2017.09.06          pgi/16.10
+   clang/coral-2017.09.13          pgi/17.1
+   clang/coral-2017.09.18          pgi/17.3
+   clang/coral-2017.10.06          pgi/17.4
+   clang/coral-2017.10.13          pgi/17.7
+   clang/coral-2017.11.09          pgi/17.9
+   clang/coral-2017.11.30          pgi/17.10
+   clang/coral-2017.12.06          pgi/18.1
+   clang/coral-2018.02.09          pgi/18.3
+   clang/coral-2018.04.17 (D)      pgi/18.4             (D)
+   clang/coral-2018.05.18          python/2.7.13
+   clang/3.9.1                     python/2.7.14        (D)
+   clang/4.0.0                     python/3.6.4
+   cmake/3.7.2                     scorep/3.0.0
+   cmake/3.8.2                     tau/2.26.2
+   cmake/3.9.2            (D)      totalview/2016.07.22
+   cuda/8.0                        totalview/2017X.3.1
+   cuda/9.0.176                    totalview/2017.0.12
+   cuda/9.0.184                    totalview/2017.1.21
+   cuda/9.1.76                     totalview/2017.2.11
+   cuda/9.1.85                     totalview/2017.3.8   (D)
+   cuda/9.2.64            (L,D)    xl/beta-2017.03.28
+   deprecated                      xl/beta-2017.04.11
+   essl/beta-6.1.0                 xl/beta-2017.05.08
+   essl/5.5                        xl/beta-2017.06.07
+   essl/6.1               (D)      xl/beta-2017.06.14
+   experimental                    xl/beta-2017.06.29
+   flex/2.6.4                      xl/beta-2017.07.28
+   gcc/4.8-redhat                  xl/beta-2017.09.13
+   gcc/4.9.3              (D)      xl/beta-2017.10.13
+   gcc/7.2.1-redhat                xl/beta-2017.11.28
+   git/2.9.3                       xl/beta-2018.02.05
+   gmake/4.2.1                     xl/beta-2018.02.22
+   gnuplot/5.0.0                   xl/beta-2018.03.21
+   gsl/2.3                         xl/beta-2018.04.06
+   gsl/2.4                (D)      xl/2016.12.02
+   ibmppt/alpha-2.4.0              xl/2018.04.29        (L,D)
+
+-------------------- /usr/share/lmod/lmod/modulefiles/Core ---------------------
+   lmod/6.5    settarg/6.5
+
+  Where:
+   D:  Default Module
+   L:  Module is loaded
+
+Use "module spider" to find all possible modules.
+Use "module keyword key1 key2 ..." to search for all possible modules matching
+any of the "keys".
+
