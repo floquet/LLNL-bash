@@ -10,6 +10,10 @@ if [ -z "$partition" ]
         export partition="log-in"
 fi
 
+export node_name=`echo $(uname -n) | awk -F'.' '{print $1}'` # pn1249300.lanl.gov -> pn1249300
+export    whoami="${host_name}, node ${node_name}"
+export    prefix="${host_name}-${partition}-${node_name}"
+
 # # B O O T  S E C T O R
 export   ego="${node_queries}/${host_name}"
 export    id="${ego}/${partition}-${short_name}"  # ccscs/ccscs2
