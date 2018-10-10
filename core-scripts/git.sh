@@ -2,14 +2,16 @@
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
 # http://stackoverflow.com/questions/1125968/how-to-force-git-pull-to-overwrite-local-files
-alias overwrite='git reset --hard HEAD'
+alias overwrite="git reset --hard HEAD"
 
 # https://stackoverflow.com/questions/783811/getting-git-to-work-with-a-proxy-server
 #alias get_git_proxies='echo "http proxy: "; git config --global --get http.proxy; echo "https proxy: "; git config --global --get https.proxy'
 alias set_git_proxies='git config --global http.proxy http://proxyout.lanl.gov:8080; git config --global https.proxy http://proxyout.lanl.gov:8080'
 
-alias mothership='git remote show origin'
+alias mothership="git remote show origin"
 alias gpg_check='git verify-commit HEAD~0; export GPG_SIGNED=$?; echo "verify-commit exit code = \$GPG_SIGNED = $GPG_SIGNED"'
+
+alias sweep_repos="echo '. \${core}/git-puller.sh'; . ${core}/git-puller.sh"
 
 # # F U N C T I O N S
 

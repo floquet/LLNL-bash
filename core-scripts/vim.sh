@@ -7,4 +7,6 @@ alias  vm="echo 'vi makefile';             vi makefile"
 alias  vM="echo 'vi Makefile';             vi Makefile"
 alias vcm="echo 'vi CMakeLists.txt';       vi CMakeLists.txt"
 
+alias  ve="echo 'vi ${extras}'; vi ${HOME}/${extras}"
+
 alias contents_vim='echo "ALIAS v, vc, vm, vM, vcm"'

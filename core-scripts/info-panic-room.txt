@@ -1,0 +1,15 @@
+# https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s2-proc-pid
+
+Out of Memory (OOM) refers to a computing state where all available memory, including swap space,
+has been allocated. When this situation occurs, it will cause the system to panic and
+stop functioning as expected. There is a switch that controls OOM behavior in /proc/sys/vm/panic_on_oom.
+
+When set to 1 the kernel will panic on OOM.
+
+A setting of 0 instructs the kernel to call a function named oom_killer on an OOM.
+Usually, oom_killer can kill rogue processes and the system will survive.
+
+It is also possible to prioritize which processes get killed by adjusting the oom_killer score.
+In /proc/PID/ there are two tools labeled oom_adj and oom_score. Valid scores for oom_adj are in
+the range -16 to +15. To see the current oom_killer score, view the oom_score for the process.
+oom_killer will kill processes with the highest scores first.

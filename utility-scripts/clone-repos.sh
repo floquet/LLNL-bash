@@ -7,6 +7,7 @@ cd repos
 pwd
 
 git clone git@gitlab.lanl.gov:dantopa/bash-scripts.git             &
+git clone git@gitlab.lanl.gov:dantopa/master-lap.git               &
 git clone git@gitlab.lanl.gov:dantopa/master-ompi.git              &
 git clone git@gitlab.lanl.gov:dantopa/node-queries.git             &
 git clone git@gitlab.lanl.gov:dantopa/Open-MPI-development.git     &

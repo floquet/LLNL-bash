@@ -15,7 +15,6 @@ fi
 if command -v lscpu > /dev/null 2>&1; then
     # # lscpu
     export my_log="${id}/lscpu.txt"
-    alias __lscpu='echo "lscpu > \${my_log} = ${my_log}"'
 
     echo "lscpu for ${whoami}" >  ${my_log}
     date                       >> ${my_log}
@@ -23,29 +22,25 @@ if command -v lscpu > /dev/null 2>&1; then
     lscpu                      >> ${my_log}
 fi
 
-if [ -f  /proc/cpuinfo ]; then
-    # # cpu info
-    export my_log="${id}/proc-cpu-info.txt"
-    alias __contents_cpu='echo "write proc/cpuinfo to \${my_log} = ${my_log}"'
+if command -v lspci > /dev/null 2>&1; then
+    # # lscpu
+    export my_log="${id}/lspci.txt"
 
-    echo "cat /proc/cpuinfo for ${whoami}" >  ${my_log}
-    date                                   >> ${my_log}
-    echo ""                                >> ${my_log}
-    cat /proc/cpuinfo                      >> ${my_log}
-
-    # # mem info
-    export my_log="${id}/proc-mem-info.txt"
-    alias __contents_mem='echo "write proc/meminfo to \${my_log} = ${my_log}"'
-
-    echo "cat /proc/mem info for ${whoami}" >  ${my_log}
-    date                                    >> ${my_log}
-    echo ""                                 >> ${my_log}
-    cat /proc/meminfo                       >> ${my_log}
-
-    # # cpu basics
-    alias cpu_out="grep -i 'model name' /proc/cpuinfo | sort | uniq"
-    export my_log="${id}/cpu-basics.txt"
-    echo "grep -i 'model name' /proc/cpuinfo | sort | uniq" >  ${my_log}
-          grep -i 'model name' /proc/cpuinfo | sort | uniq  >> ${my_log}
-    #alias __cpuout='echo "grep -i 'model name' /proc/cpuinfo | sort | uniq > \${my_log} = ${my_log}"'
+    echo "lspci for ${whoami}" >  ${my_log}
+    date                       >> ${my_log}
+    echo ""                    >> ${my_log}
+    lspci                      >> ${my_log}
 fi
+
+# /proc filesystem
+if [ -f  /proc/cpuinfo ]; then
+    source ${core}/info-proc.sh
+fi
+
+# is slurm running?
+if command -v sinfo > /dev/null 2>&1; then
+    source ${core}/slurm.sh
+    source ${core}/info-slurm.sh &
+fi
+
+source ${core}/info-git.sh &

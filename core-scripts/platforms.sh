@@ -1,23 +1,22 @@
 #! /bin/bash
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-# https://stackoverflow.com/questions/16040567/use-awk-to-extract-substring
-export short_name=`echo ${HOSTNAME} | awk -F'.' '{print $1}'` # trinitite.lanl.gov -> trinitite
-
 export partition=`env | grep SLURM_JOB_PARTITION | awk -F'=' '{print $2}'`
-if [ -z "$partition" ]
+if [ -z ${partition} ]
     then
-        export partition="log-in"
+        export partition="log.in"
 fi
 
 export node_name=`echo $(uname -n) | awk -F'.' '{print $1}'` # pn1249300.lanl.gov -> pn1249300
 export    whoami="${host_name}, node ${node_name}"
 export    prefix="${host_name}-${partition}-${node_name}"
 
-# # B O O T  S E C T O R
+# # node-queries
 export   ego="${node_queries}/${host_name}"
-export    id="${ego}/${partition}-${short_name}"  # ccscs/ccscs2
-export vault="${id}/configure"
+export    id="${ego}/${partition}-${node_name}"  # ccscs/ccscs2
+export vault="${id}/dir-configuration"
+
+alias show_names="echo '\${host_name} = ${host_name}'; echo '\${partition} = ${partition}'; echo '\${node_name} = ${node_name}'; echo '\${prefix}    = ${prefix}'; echo '\${ego}       = ${ego}'; echo '\${id}        = ${id}'; echo '\${vault}     = ${vault}'"
 
 mkdir -p ${vault}
 
@@ -28,12 +27,13 @@ export me="${moniker}@lanl.gov"   # for scp and such
 alias k="kinit -f ${me}"  # forward ticket
 
 # # S S H
-export myssh="ssh -l -XY ${moniker} "   # forward X11
+export myssh="ssh -l ${moniker} -XY"   # forward X11
 
 # # Yellow network
 alias  trinititey="${myssh} tt-fey.lanl.gov"
 
 alias      darwin="${myssh} darwin-fe.lanl.gov"
+alias          ga="${myssh} ga-fey"
 alias          ml="${myssh} ml-fey"
 alias  moonlighty="${myssh} ml-fey"
 alias moonlighty1="${myssh} ml-fey1"
@@ -60,8 +60,8 @@ alias         cc8="${myssh} ccscs8"
 
 alias         cctc="${myssh} ccs-tc"
 
-alias pet2="${myssh} petaca2" # sudo privledges
-alias pet3="${myssh} petaca3" # sudo privledges
+# alias pet2="${myssh} petaca2" # sudo privledges
+# alias pet3="${myssh} petaca3" # sudo privledges
 
 # scp -r llvm* $now
 # dantopa@lanl.gov@ml-fey1:spack.mirror/.

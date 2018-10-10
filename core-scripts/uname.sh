@@ -18,4 +18,3 @@ echo ""                                          >> ${my_log}
 echo "\${BASH_SOURCE[0]} = ${BASH_SOURCE[0]}"    >> ${my_log}
 
 alias contents_uname='echo "write list of uname variables to uname_variables.txt"'
-
