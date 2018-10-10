@@ -43,8 +43,8 @@ if [ -d "${repos}" ]; then
         alias  goseeompi="cd ${ompi}/${host_name}/${partition}; pwd"
     fi
 
-    if [ -d "${repos}/node-queries" ]; then
-        export node_queries="${repos}/node-queries"
+    if [ -d "${github}/node-queries" ]; then
+        export node_queries="${igithub}/node-queries"
         alias gonode="cd ${node_queries}; pwd"
 
         export       dir_control="${node_queries}/control"
