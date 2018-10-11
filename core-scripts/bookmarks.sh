@@ -22,7 +22,7 @@ if [ -d "${repos}" ]; then
     fi
 
     if [ -d "${repos}/Github" ]; then
-        export    github="${repos}/GitHub"
+        export    github="${repos}/Github"
         export llnl_bash="${github}/LLNL-bash"
         alias   gogithub="cd ${github}; pwd"
         alias gollnlbash="cd ${llnl_bash}; pwd"
