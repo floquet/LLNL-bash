@@ -44,7 +44,7 @@ if [ -d "${repos}" ]; then
     fi
 
     if [ -d "${github}/node-queries" ]; then
-        export node_queries="${igithub}/node-queries"
+        export node_queries="${github}/node-queries"  #  #  #  LLNL only
         alias gonode="cd ${node_queries}; pwd"
 
         export       dir_control="${node_queries}/control"
