@@ -4,7 +4,7 @@ printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 export partition=`env | grep SLURM_JOB_PARTITION | awk -F'=' '{print $2}'`
 if [ -z ${partition} ]
     then
-        export partition="log.in"
+        export partition="power9"   #  #  #  LLNL only
 fi
 
 export node_name=`echo $(uname -n) | awk -F'.' '{print $1}'` # pn1249300.lanl.gov -> pn1249300
