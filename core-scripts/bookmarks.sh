@@ -18,7 +18,7 @@ if [ -d "${repos}" ]; then
 
     if [ -d "${repos}/Bitbucket" ]; then
         export   bitbucket="${repos}/Bitbucket"
-        alias  gobitbucket="cd ${github}; pwd"
+        alias  gobitbucket="cd ${bitbucket}; pwd"
     fi
 
     if [ -d "${repos}/Github" ]; then

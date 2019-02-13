@@ -9,10 +9,12 @@ echo "mac profile"                        >  ${my_log}
 date                                      >> ${my_log}
 echo ""                                   >> ${my_log}
 echo "system_profiler SPSoftwareDataType" >> ${my_log}
-system_profiler SPSoftwareDataType        >> $my_log
+system_profiler SPSoftwareDataType        >> ${my_log}
 echo ""                                   >> ${my_log}
 echo "sysctl -a"                          >> ${my_log}
 sysctl -a                                 >> ${my_log}
+
+alias show_hidden="echo 'defaults write com.apple.finder AppleShowAllFiles YES'; echo 'restart finder'; defaults write com.apple.finder AppleShowAllFiles YES"
 
 # WARNING: The locate database (/var/db/locate.database) does not exist.
 # To create the database, run the following command:
