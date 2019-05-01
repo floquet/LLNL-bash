@@ -26,6 +26,8 @@ alias gomanta="echo '${llnl_ssh} rzmanta: <password><pin>';          ${llnl_ssh}
 alias   goray="echo 'ssh ray: <password><pin>'; ssh ray"
 alias   oslic="echo '${llnl_ssh} oslic.llnl.gov'; ${llnl_ssh} oslic.llnl.gov"
 alias   rslic="echo '${llnl_ssh} rzslic.llnl.gov'; ${llnl_ssh} rslic.llnl.gov"
+alias treasure="/usr/bin/firefox https://rzlc.llnl.gov/bitbucket/projects/SPACK/repos/llnl.wci"
+
 # alias    ihpc="echo 'ssh -Y dantopa@ihpc-gate.lanl.gov <crypto card>'; ssh -Y dantopa@ihpc-gate.lanl.gov"
 # alias    rzgw="echo 'ssh -Y topa1@rzgw.llnl.gov <password><pin>'; ssh -Y topa1@rzgw.llnl.gov"
 # alias gomanta="echo 'ssh rzmanta: <password><pin>'; ssh rzmanta"
