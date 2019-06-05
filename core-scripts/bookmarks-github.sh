@@ -31,4 +31,7 @@ if [ -d "${github}/yaml-library" ]; then
     export  yaml_library="${github}/yaml-library"
     alias goyaml="cd ${yaml_library}; pwd"
     repos_github="${repos_github} yaml_library"
+
+    export clone_zone="${yaml_library}/clone-zone/${host_name}"
+    alias goclone="cd ${clone_zone}; pwd"
 fi

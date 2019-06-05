@@ -25,6 +25,7 @@ source "${core}/spack.sh"
 # source "${core}/lstopo.sh"              &
 source "${core}/modules.sh"
 source "${core}/alias.sh"
+source "${core}/rsync.sh"
 source "${core}/environment.sh"
 
 wait

@@ -1,7 +1,8 @@
 #! /bin/bash
 printf '%s\n' "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
 
-alias another_mathematica='open -n /Volumes/Macintosh HD/Application/Mathematica.app'  # launch second kernel
+alias another_mathematica='open -n /Volumes/Macintosh\ HD/Applications/Wolfram/Mathematica\ 11.3.0.0.app'  # launch second kernel
+defaults write com.apple.screencapture location Desktop/tidy/screenshots/
 
 export my_log="${id}/apple_profiler.txt"
 
@@ -14,8 +15,6 @@ echo ""                                   >> ${my_log}
 echo "sysctl -a"                          >> ${my_log}
 sysctl -a                                 >> ${my_log}
 
-alias show_hidden="echo 'defaults write com.apple.finder AppleShowAllFiles YES'; echo 'restart finder'; defaults write com.apple.finder AppleShowAllFiles YES"
-
 # WARNING: The locate database (/var/db/locate.database) does not exist.
 # To create the database, run the following command:
 
@@ -26,4 +25,5 @@ alias show_hidden="echo 'defaults write com.apple.finder AppleShowAllFiles YES';
 
 # sudo /usr/libexec/locate.updatedb
 
+alias show_hidden="echo 'defaults write com.apple.finder AppleShowAllFiles YES'; echo 'restart finder'; defaults write com.apple.finder AppleShowAllFiles YES"
 alias contents_apple='echo "ALIAS another_mathematica"; echo "write system_profile and sysctl to \${my_log} = ${my_log}"'
