@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export extras=".bash-platform-specific"
+
+cp ${HOME}/${extras}     ${vault} &
+cp ${HOME}/.bash_profile ${vault} &
+cp ${HOME}/.bash_logout  ${vault} &
+
+wait
+

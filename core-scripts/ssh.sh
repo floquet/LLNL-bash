@@ -20,6 +20,8 @@ alias resetSSH='echo "ssh-keygen -f ~/.ssh/id_rsa -p"; ssh-keygen -f ~/.ssh/id_r
 export capulin="dantopa@wtrw:cp-fe:"
 export capulin_gitlab="${capulin}/users/dantopa/repos/gitlab"
 #alias srngate="echo 'ssh -l dantopa@lanl.gov srngate.sandia.gov'; echo 'sandia crypto'; ssh -l dantopa@lanl.gov srngate.sandia.gov"
+export snl_moniker="dmtopa"
+export snl_ssh="ssh -l ${snl_moniker} -X"
 alias srngate="echo 'ssh dmtopa@srngate.sandia.gov'; echo 'sandia crypto'; ssh dmtopa@srngate.sandia.gov"
 
 export llnl_moniker="topa1"

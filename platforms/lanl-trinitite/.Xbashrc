@@ -1,0 +1,54 @@
+#! /bin/bash
+##-*- Mode: bash -*-
+##---------------------------------------------------------------------------##
+## File  : ~/.bashrc
+## Date  : May 21, 2018
+## Author: Daniel Topa
+## Note  : Copyright (C) 2018, Los Alamos National Security, LLC.
+##         All rights are reserved.
+##
+##  Bash configuration file upon bash shell startup
+##---------------------------------------------------------------------------##
+printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+
+# # I D E N T I F Y
+export bash_file=".bashrc"
+export host_name="trinitite"
+export   scratch="/lustre/ttscratch1/${USER}"
+
+export        repos="${scratch}/repos"
+export node_queries="${repos}/gitlab/node-queries"
+export bash_scripts="${repos}/gitlab/bash-scripts"
+export         core="${bash_scripts}/core-scripts"
+
+export        mySpack="${repos}/spack"
+export mySpackOpenMPI="${mySpack}/spack.${host_name}.ompi"
+
+# dantopa@tt-fey1:bash-scripts $ gcc --version
+# gcc (GCC) 6.3.0 20161221 (Cray Inc.)
+export gcc_system_compiler="gcc@6.3.0"
+
+#   ===   ===   ===   ===   ===   ===   ===   ===
+
+source "${core}/platforms.sh" # identify platform
+source "${core}/master.sh"
+
+#   ===   ===   ===   ===   ===   ===   ===   ===
+
+alias grab-compute="echo 'salloc -N 1 -t 10:00:00'; salloc -N 1 -t 10:00:00"
+alias grab-knl="echo 'salloc -t 10:00:00 -p knl -C quad,cache'; echo 'module swap craype-haswell craype-mic-knl'; salloc -t 10:00:00 -p knl -C quad,cache; module swap craype-haswell craype-mic-knl"
+
+## temporary
+alias xrage="cd ${repos}/x-rage; pwd"
+alias jayenne="cd ${repos}/jayenne; pwd"
+alias gomirror="cd /usr/projects/draco/vendors/spack.mirror; pwd"
+alias quick="echo 'spack install superlu-dist @ 5.2.2 % ccs @ 8.7.2 arch=cnl6-haswell'; spack install superlu-dist @ 5.2.2 % cce@8.7.2 arch=cray-cnl6-haswell"
+alias now="echo 'spack install --dont-restage openblas % cce & 8.7.2'; spack install --dont-restage openblas % cce@8.7.2"
+
+
+alias   gohypre="cd ${mySpack}/spack.compute.hypre;   pwd"
+alias  gozoltan="cd ${mySpack}/spack.compute.zoltan;  pwd"
+alias    gopmix="cd ${mySpack}/spack.pmix;            pwd"
+alias godevelop="cd ${mySpack}/spack.compute.develop; pwd"
+alias quick="source ${lap}/library/patch-zoltan-config.sh; pwd"
+

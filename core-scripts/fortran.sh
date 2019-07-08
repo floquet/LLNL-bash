@@ -36,6 +36,12 @@ function gf(){
   gfortran $gflags $1.f08 -o $1
 }
 
+# spack compiler gcc 9.1.0
+function sf(){
+    echo "/Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-9.1.0-dlltzhtbxwjhlnon7gakutlro27gaagv/bin/gfortran $gflags $1.f08 -o $1"
+          /Volumes/Huitzilopochtli/scratch/spack-folders/spack-compilers-high.sierra/opt/spack/darwin-sierra-x86_64/gcc-6.3.0/gcc-9.1.0-dlltzhtbxwjhlnon7gakutlro27gaagv/bin/gfortran $gflags $1.f08 -o $1
+}
+
 function nf(){
   echo "nag compilation flags: "$nagflags;
   nagfor $nagflags $1.f08 -o $1

@@ -1,0 +1,51 @@
+#! /bin/bash
+##-*- Mode: bash -*-
+##---------------------------------------------------------------------------##
+## File  : ~/.bashrc
+## Date  : March 14, 2019
+## Author: Daniel Topa
+## Note  : Copyright (C) 2018, Los Alamos National Security, LLC.
+##         All rights are reserved.
+##
+##  Bash configuration file upon bash shell startup
+##---------------------------------------------------------------------------##
+printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+
+# # I D E N T I F Y
+export bash_file=".trinitite-bash"
+export host_name="trinitite"
+export   scratch="/lustre/ttscratch1/${USER}"
+
+export        repos="${scratch}/repos"
+export       gitlab="${repos}/gitlab"
+# export node_queries="${gitlab}/node-queries"
+export bash_scripts="${gitlab}/bash-scripts"
+export         core="${bash_scripts}/core-scripts"
+
+export        mySpack="${repos}/spack"
+# export mySpackOpenMPI="${mySpack}/spack.${host_name}.ompi"
+
+# dantopa@tt-fey1:bash-scripts $ gcc --version
+# gcc (GCC) 6.3.0 20161221 (Cray Inc.)
+export gcc_system_compiler="gcc@6.3.0"
+
+#   ===   ===   ===   ===   ===   ===   ===   ===
+
+source "${core}/platforms.sh" # identify platform
+source "${core}/master.sh"
+
+#   ===   ===   ===   ===   ===   ===   ===   ===
+
+export dir_spack_library="${mySpack}/libraries/trinitite-standard."
+export dir_spack_modules="share/spack/modules/cray-cnl6-haswell"
+
+alias malibhio="echo 'module avail ${dir_spack_library}libhio/${dir_spack_modules}';  module avail '${dir_spack_library}libhio/${dir_spack_modules}'"
+alias   maompi="echo 'module avail ${dir_spack_library}openmpi/${dir_spack_modules}'; module avail '${dir_spack_library}openmi/${dir_spack_modules}'"
+alias   mapmix="echo 'module avail ${dir_spack_library}pmix/${dir_spack_modules}';    module avail '${dir_spack_library}pmix/${dir_spack_modules}'"
+alias    maucx="module avail ${dir_spack_library}ucx/${dir_spack_modules}"
+
+alias grab-compute="echo 'salloc -N 1 -t 10:00:00'; salloc -N 1 -t 10:00:00"
+
+## temporary
+
+

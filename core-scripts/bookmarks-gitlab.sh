@@ -21,6 +21,12 @@ if [ -d "${gitlab}/fortran" ]; then
     repos_gitlab="${repos_gitlab} fortran"
 fi
 
+if [ -d "${gitlab}/master-artab" ]; then
+    export  master_artab="${gitlab}/master-artab"
+    alias gomaster_artab="cd ${master_artab}; pwd"
+            repos_gitlab="${repos_gitlab} master_artab"
+fi
+
 if [ -d "${gitlab}/master-lap" ]; then
     export  master_lap="${gitlab}/master-lap"
     alias gomaster_lap="cd ${master_lap}; pwd"

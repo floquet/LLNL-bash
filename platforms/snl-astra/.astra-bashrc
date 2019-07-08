@@ -1,0 +1,39 @@
+#! /bin/bash
+##-*- Mode: bash -*-
+##---------------------------------------------------------------------------##
+## File  : ~/.bashrc
+## Date  : Jun 28, 2019
+## Author: Daniel Topa
+## Note  : Copyright (C) 2019, Triad, LLC.
+##         All rights are reserved.
+##
+##  Bash configuration file upon bash shell startup
+##---------------------------------------------------------------------------##
+printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+
+# # I D E N T I F Y
+export host_name="astra"
+export bash_file=".${host_name}-bash"
+export   scratch="/lustre/cpscratch1/${USER}"
+
+export        repos="${HOME}/repos"
+export node_queries="${repos}/gitlab/node-queries"
+export bash_scripts="${repos}/gitlab/bash-scripts"
+export         core="${bash_scripts}/core-scripts"
+
+export        mySpack="${repos}/spack"
+
+# [dmtopa@astra-login1 gitlab]$ gcc --version
+# gcc (GCC) 7.2.0
+# Copyright (C) 2017 Free Software Foundation, Inc.
+export gcc_system_compiler="gcc@7.2.0"
+
+#   ===   ===   ===   ===   ===   ===   ===   ===
+
+source "${core}/platforms.sh" # identify platform
+source "${core}/master.sh"
+
+#   ===   ===   ===   ===   ===   ===   ===   ===
+
+alias grab-compute="echo 'salloc -N 1 -t 10:00:00'; salloc -N 1 -t 10:00:00"
+alias golibraries="cd /lustre/cpscratch1/dantopa/repos/spack/libraries; pwd"

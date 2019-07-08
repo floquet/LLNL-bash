@@ -13,6 +13,8 @@ alias setnow='export dir_now="$(pwd)"; gonow=cd ${dir_now}'
 alias curl_37='grep -r "curl: (37)" .'
 alias   stale='grep  -r "[Errno 116] Stale file handle" .'
 alias cdh="cd ${HOME}"
+alias getymd="export ymd=$(date +%Y-%m-%d-%H-%M)"
+alias check_flock="echo 'mount | grep lustre';mount | grep lustre"
 
 # # path queries
 alias  ep="echo '\${PATH}:';       echo ${PATH}"

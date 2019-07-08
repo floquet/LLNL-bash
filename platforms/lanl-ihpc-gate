@@ -1,0 +1,22 @@
+#!/bin/bash
+# 2019 06 29
+printf "%s\n" "$(date), $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+
+# # I D E N T I F Y
+#export host_name="ihpc-gate"
+export bash_file=".${host_name}-bash"
+export    extras=".bash-platform-specific"
+
+# # P O I N T
+export        repos="${HOME}/repos"
+export       gitlab="${repos}/gitlab"
+export bash_scripts="${gitlab}/bash-scripts"
+export         core="${bash_scripts}/core-scripts"
+
+# #  ===   ===   ===   ===   ===
+
+source "${core}/master.sh"
+
+# #  ===   ===   ===   ===   ===
+
+source "${HOME}/${extras}"

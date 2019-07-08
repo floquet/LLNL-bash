@@ -1,0 +1,44 @@
+#! /bin/bash
+##-*- Mode: bash -*-
+##---------------------------------------------------------------------------##
+## File  : ~/.bashrc
+## Date  : May 21, 2018
+## Author: Daniel Topa
+## Note  : Copyright (C) 2018, Los Alamos National Security, LLC.
+##         All rights are reserved.
+##
+##  Bash configuration file upon bash shell startup
+##---------------------------------------------------------------------------##
+printf '%s\n' "$(date) $(tput bold)${BASH_SOURCE[0]}$(tput sgr0)"
+
+# # I D E N T I F Y
+export host_name="snow"
+export bash_file=".${host_name}-bash"
+export   scratch="/net/scratch4/${USER}"
+#export   mySpack="${scratch}/spack"
+
+export        repos="${scratch}/repos"
+export      mySpack="${repos}/spack"
+export node_queries="${repos}/node-queries"
+export bash_scripts="${repos}/gitlab/bash-scripts"
+export         core="${bash_scripts}/core-scripts"
+
+# dantopa@sn-fey2.lanl.gov:dantopa $ gcc --version
+# gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)
+export gcc_system_compiler="gcc@4.8.5"
+
+# **  **  **  **  **  **  **  **
+
+source "${core}/platforms.sh" # identify platform
+source "${core}/master.sh"
+
+# **  **  **  **  **  **  **  **
+
+alias grab-compute="echo 'salloc -N 1 -t 10:00:00'; salloc -N 1 -t 10:00:00"
+alias temp="golap; cd init/bash/control; pwd"
+
+alias     gohypre="cd ${mySpack}/spack.standard.hypre;     pwd"
+alias    gozoltan="cd ${mySpack}/spack.standard.zoltan;    pwd"
+alias gocompilers="cd ${mySpack}/spack.standard.compilers; pwd"
+
+
