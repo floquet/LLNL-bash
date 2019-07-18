@@ -37,6 +37,12 @@ if [ -d "${bitbucket}/python" ]; then
     repos_bitbucket="${repos_bitbucket} mypython"
 fi
 
+if [ -d "${bitbucket}/snl-astra-hpc" ]; then
+    export  snl_astra="${bitbucket}/snl-astra-hpc"
+    alias gosnl_astra="cd ${snl_astra}; pwd"
+      repos_bitbucket="${repos_bitbucket} snl_astra"
+fi
+
 if [ -d "${bitbucket}/top" ]; then
     export  top="${bitbucket}/top"
     alias gotop="cd ${top}; pwd"

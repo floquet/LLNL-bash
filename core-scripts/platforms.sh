@@ -35,6 +35,8 @@ alias  trinititey="echo '${myssh} tt-fey.lanl.gov';${myssh} tt-fey.lanl.gov"
 
 alias      darwin="echo '${myssh} darwin-fe.lanl.gov';${myssh} darwin-fe.lanl.gov"
 alias     capulin="echo '${myssh} cp-loginy.lanl.gov';${myssh} cp-loginy.lanl.gov"
+alias         lap="echo '${myssh} lap-fey1';${myssh} lap-fey1"
+alias      vc-fey="echo 'ssh ${myssh}@vc-fey'; ssh ${myssh}@vc-fey"
 alias          ga="echo '${myssh} ga-fey';${myssh} ga-fey"
 alias          ml="echo '${myssh} ml-fey';${myssh} ml-fey"
 alias  moonlighty="echo '${myssh} ml-fey';${myssh} ml-fey"

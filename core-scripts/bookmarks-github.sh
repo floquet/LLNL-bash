@@ -21,6 +21,12 @@ if [ -d "${github}/LLNL-node-queries" ]; then
     repos_github="${repos_github} lnode"
 fi
 
+if [ -d "${github}/projects-lanl-artab-users-dmtopa" ]; then
+    export  astra_artab="${github}/projects-lanl-artab-users-dmtopa"
+    alias goastra_artab="cd ${astra}; pwd"
+    repos_github="${repos_github} astra_artab"
+fi
+
 if [ -d "${github}/topa-development" ]; then
     export  topa="${github}/topa-development"
     alias gotopa="cd ${topa_development}; pwd"

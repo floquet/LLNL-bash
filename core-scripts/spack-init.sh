@@ -44,11 +44,11 @@ alias sfhldf="spack find -ldf hypre"
 alias sfoldf="spack find -ldf openmpi"
 
 ## modules
-alias reft="echo 'spack module tcl  refresh --delete-tree'; spack module tcl  refresh --delete-tree"
-alias refl="echo 'spack module lmod refresh --delete-tree'; spack module lmod refresh --delete-tree"
+alias reft="echo 'spack module tcl  refresh --delete-tree --yes-to-all'; spack module tcl  refresh --delete-tree --yes-to-all"
+alias refl="echo 'spack module lmod refresh --delete-tree --yes-to-all'; spack module lmod refresh --delete-tree --yes-to-all"
 
-alias modt="echo 'spack module tcl  refresh --delete-tree'; spack module tcl  refresh --delete-tree"
-alias modl="echo 'spack module lmod refresh --delete-tree'; spack module lmod refresh --delete-tree"
+alias modt="echo 'spack module tcl  refresh --delete-tree --yes-to-all'; spack module tcl  refresh --delete-tree --yes-to-all"
+alias modl="echo 'spack module lmod refresh --delete-tree --yes-to-all'; spack module lmod refresh --delete-tree --yes-to-all"
 
 alias mu="echo 'module load lmod'; module load lmod; echo 'module use ${SPACK_ROOT}/share/spack/lmod/$(spack arch)/Core'; module use ${SPACK_ROOT}/share/spack/lmod/$(spack arch)/Core"
 alias fix_module_path="ep; echo ''; module unuse ${SPACK_ROOT}/share/spack/modules/$(spack arch); ep; echo ''; module use ${SPACK_ROOT}/share/spack/lmod/$(spack arch)/Core/; ep; echo ''"

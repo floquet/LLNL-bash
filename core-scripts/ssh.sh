@@ -17,7 +17,7 @@ alias resetSSH='echo "ssh-keygen -f ~/.ssh/id_rsa -p"; ssh-keygen -f ~/.ssh/id_r
 # rzgw:    <password>idodjv2k<pin>
 # rzmanta: <password><pin>
 
-export capulin="dantopa@wtrw:cp-fe:"
+# export capulin="dantopa@wtrw:cp-fe:"
 export capulin_gitlab="${capulin}/users/dantopa/repos/gitlab"
 #alias srngate="echo 'ssh -l dantopa@lanl.gov srngate.sandia.gov'; echo 'sandia crypto'; ssh -l dantopa@lanl.gov srngate.sandia.gov"
 export snl_moniker="dmtopa"
@@ -43,5 +43,7 @@ alias treasure="/usr/bin/firefox https://rzlc.llnl.gov/bitbucket/projects/SPACK/
 
 
 alias public_key='cat ~/.ssh/id_rsa.pub'
+alias make_key_rsa='ssh-keygen -t rsa -b 4096 -o -a 100 -C “dantopa@lanl.gov”'
+alias make_key_ed='ssh-keygen -t ed25519 -a 100 -C “dantopa@lanl.gov”'
 
 alias contents_ssh='echo "ALIAS public_key"'
