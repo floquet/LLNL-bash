@@ -11,6 +11,7 @@ alias copy_scripts=". ${lap}/init/bash/control/copier.sh"
 alias run_reporter=". ${lap}/init/bash/control/spack-reporter.sh"
 alias  sf="spack find"
 alias sfl="spack find -ldf"
+alias move_yamls=". ${core}/spack.sh; echo 'cp *.yaml ${SPACK_ROOT}/etc/spack/defaults'; cp *.yaml ${SPACK_ROOT}/etc/spack/defaults"
 
 alias scgcm="spack config get compilers"
 alias scgcn="spack config get config"
@@ -18,6 +19,13 @@ alias scgmi="spack config get mirrors"
 alias scgmo="spack config get modules"
 alias scgpa="spack config get packages"
 alias scgre="spack config get repos"
+
+alias scbcm="spack config blame compilers"
+alias scbcn="spack config blame config"
+alias scbmi="spack config blame mirrors"
+alias scbmo="spack config blame modules"
+alias scbpa="spack config blame packages"
+alias scbre="spack config blame repos"
 
 alias graf="echo 'git remote add floquet https://github.com/floquet/spack.git'; git remote add floquet https://github.com/floquet/spack.git"
 
@@ -33,6 +41,7 @@ alias   vcn="vi ${dir_yaml}/config.yaml"
 alias   vmi="vi ${dir_yaml}/mirrors.yaml"
 alias   vmo="vi ${dir_yaml}/modules.yaml"
 alias   vpa="vi ${dir_yaml}/packages.yaml"
+alias   vre="vi ${dir_yaml}/repos.yaml"
 
 ## openmpi
 alias    sfh="spack find hypre"
@@ -60,3 +69,4 @@ function builder(){
 
 
 # alias contents_spack='echo "ALIAS  fix_module_path ref sil sml sp scgcm scgcn scgmi scgmo scgpa scgre spack_here spack_https spack_set spack_shell spack_ssh spack_try svicompilers svimodules svimirrors"; echo "EXPORT spack_mirror_draco spack_mirror_scratch"'
+
